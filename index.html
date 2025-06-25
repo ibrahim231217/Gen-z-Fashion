@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome for icons (optional, not used in current HTML) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      font-family: "Roboto", sans-serif;
+    }
+    .bebas {
+      font-family: "Bebas Neue", sans-serif;
+    }
+    .btn-primary {
+      padding: 18px 32px;
+      background-color: #A4BC46;
+      font-weight: 500;
+      border-radius: 10px;
+      color: white;
+    }
+  </style>
+
+  <title>Gen-Z Fashion Home Page</title>
+</head>
+
+<body>
+
+<!-- Header / Hero Section -->
+<header class="w-full h-auto bg-[#FFFBF0] px-4 py-4">
+  <nav class="flex justify-between items-center px-[135px] py-4">
+    <img src="icons/logo_icon.png" alt="Logo" class="w-[55px] h-[40px]" />
+    <div class="text-2xl"><span class="text-green-600">Gen Z</span> Fashion</div>
+    <ul class="hidden md:flex gap-10 font-semibold">
+      <li>Home</li>
+      <li>Product</li>
+      <li>About Us</li>
+      <li>Contact Us</li>
+    </ul>
+    <div class="md:hidden text-2xl">&#8801;</div>
+  </nav>
+
+  <div class="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-24 mt-10 gap-10">
+    <div>
+      <h1 class="bebas text-6xl lg:text-7xl">
+        <span class="text-[#FABE4C]">Be the Genzs</span><br />
+        of Winter
+      </h1>
+      <p class="py-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <button class="btn-primary mt-4">BUY NOW</button>
+    </div>
+
+    <div class="bg-[url('icons/bg1.png')] w-[440px] h-[648px] bg-cover bg-no-repeat flex items-end justify-center">
+      <img src="images/model.png" alt="Model" class="w-full h-full object-contain" />
+    </div>
+  </div>
+</header>
+
+<!-- Woman Jackets Section -->
+<main class="px-6 lg:px-24 mt-[100px] space-y-[100px]">
+  <section>
+    <h3 class="text-5xl font-medium text-blue-950 bebas mb-10">WOMAN JACKET</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+      <!-- Card 1 -->
+      <div class="bg-white w-[370px] rounded-[20px] shadow-lg p-5">
+        <div class="bg-slate-300 rounded-[20px] w-full h-[327px] flex items-center justify-center">
+          <img src="images/jacket-1.png" alt="Jacket" class="w-full h-full object-contain" />
+        </div>
+        <h5 class="text-2xl text-blue-950 font-semibold mt-4 py-4">Yellow Coat Jacket</h5>
+        <p class="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="text-4xl font-bold text-orange-300">$234</span>
+          <button class="btn-primary">BUY NOW</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white w-[370px] rounded-[20px] shadow-lg p-5">
+        <div class="bg-slate-300 rounded-[20px] w-full h-[327px] flex items-center justify-center">
+          <img src="images/jacket-2.png" alt="Jacket" class="w-full h-full object-contain" />
+        </div>
+        <h5 class="text-2xl text-blue-950 font-semibold mt-4 py-4">Ladies Jacket</h5>
+        <p class="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="text-4xl font-bold text-orange-300">$234</span>
+          <button class="btn-primary">BUY NOW</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white w-[370px] rounded-[20px] shadow-lg p-5">
+        <div class="bg-slate-300 rounded-[20px] w-full h-[327px] flex items-center justify-center">
+          <img src="images/jacket-3.png" alt="Jacket" class="w-full h-full object-contain" />
+        </div>
+        <h5 class="text-2xl text-blue-950 font-semibold mt-4 py-4">Woman Leather Jacket</h5>
+        <p class="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="text-4xl font-bold text-orange-300">$234</span>
+          <button class="btn-primary">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Man Jackets Section -->
+  <section>
+    <h3 class="text-5xl font-medium text-blue-950 bebas mb-10">MAN JACKET</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+      <!-- Card 1 -->
+      <div class="bg-white w-[370px] rounded-[20px] shadow-lg p-5">
+        <div class="bg-slate-300 rounded-[20px] w-full h-[327px] flex items-center justify-center">
+          <img src="images/jacket-4.png" alt="Jacket" class="w-full h-full object-contain" />
+        </div>
+        <h5 class="text-2xl text-blue-950 font-semibold mt-4 py-4">Snowboard Jacket Mens</h5>
+        <p class="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="text-4xl font-bold text-orange-300">$234</span>
+          <button class="btn-primary">BUY NOW</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white w-[370px] rounded-[20px] shadow-lg p-5">
+        <div class="bg-slate-300 rounded-[20px] w-full h-[327px] flex items-center justify-center">
+          <img src="images/jacket-5.png" alt="Jacket" class="w-full h-full object-contain" />
+        </div>
+        <h5 class="text-2xl text-blue-950 font-semibold mt-4 py-4">Man Leather Jackets</h5>
+        <p class="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="text-4xl font-bold text-orange-300">$234</span>
+          <button class="btn-primary">BUY NOW</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white w-[370px] rounded-[20px] shadow-lg p-5">
+        <div class="bg-slate-300 rounded-[20px] w-full h-[327px] flex items-center justify-center">
+          <img src="images/jacket-6.png" alt="Jacket" class="w-full h-full object-contain" />
+        </div>
+        <h5 class="text-2xl text-blue-950 font-semibold mt-4 py-4">Man Casual Jackets</h5>
+        <p class="text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="flex items-center justify-between mt-4">
+          <span class="text-4xl font-bold text-orange-300">$234</span>
+          <button class="btn-primary">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer Section -->
+<footer class="px-6 lg:px-[135px] mt-[100px]">
+  <div class="flex flex-col lg:flex-row items-center justify-center gap-[80px] lg:gap-[200px]">
+    
+    <!-- Info Cards -->
+    <div class="space-y-6">
+      <div class="bg-white w-[320px] md:w-[490px] rounded-[20px] shadow-lg p-5 flex items-center gap-6">
+        <img src="icons/house.png" alt="icon" class="w-[60px] md:w-[78px] h-[60px] md:h-[82px]">
+        <div>
+          <h5 class="text-xl md:text-2xl text-blue-950 font-semibold">Find the Perfect Fit</h5>
+          <p class="text-gray-600 text-sm md:text-base">Everybody is different, which is why we offer styles for every body.</p>
+        </div>
+      </div>
+
+      <div class="bg-white w-[320px] md:w-[490px] rounded-[20px] shadow-lg p-5 flex items-center gap-6">
+        <img src="icons/box.png" alt="icon" class="w-[60px] md:w-[78px] h-[60px] md:h-[82px]">
+        <div>
+          <h5 class="text-xl md:text-2xl text-blue-950 font-semibold">Free Exchanges</h5>
+          <p class="text-gray-600 text-sm md:text-base">One of the many reasons you can shop with peace of mind.</p>
+        </div>
+      </div>
+
+      <div class="bg-white w-[320px] md:w-[490px] rounded-[20px] shadow-lg p-5 flex items-center gap-6">
+        <img src="icons/question.png" alt="icon" class="w-[60px] md:w-[78px] h-[60px] md:h-[82px]">
+        <div>
+          <h5 class="text-xl md:text-2xl text-blue-950 font-semibold">Contact Our Seller</h5>
+          <p class="text-gray-600 text-sm md:text-base">They are here to help you. That’s quite literally what we pay them for.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shopping Image -->
+    <div class="w-full max-w-[650px]">
+      <img src="images/shopping.png" alt="shopping" class="w-full h-auto object-contain">
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
